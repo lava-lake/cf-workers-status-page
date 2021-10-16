@@ -37,3 +37,21 @@ monitors:
     url: 'https://www.linear.vc/'
     method: GET
     expectStatus: 200
+
+  - id: sk.ck.mk
+    name: sk.ck.mk
+    url: 'https://sk.ck.mk'
+    method: GET
+    expectStatus: 200
+
+  - id: bit-lava-lake.cloud.okteto.net
+    name: bit-lava-lake.cloud.okteto.net
+    url: 'https://bit-lava-lake.cloud.okteto.net'
+    method: GET
+    expectStatus: 200
+ 
+  - id: cloudreve-lava-lake.cloud.okteto.net
+    name: cloudreve-lava-lake.cloud.okteto.net
+    url: 'https://cloudreve-lava-lake.cloud.okteto.net'
+    method: GET
+    expectStatus: 200
