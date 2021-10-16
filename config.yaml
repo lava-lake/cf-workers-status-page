@@ -77,3 +77,9 @@ monitors:
     url: 'https://lk.ck.mk/'
     method: GET
     expectStatus: 200
+    
+  - id: cfp.10244201.xyz
+    name: CloudFlare Partner cfp.10244201
+    url: 'https://cfp.10244201.xyz/'
+    method: GET
+    expectStatus: 200
