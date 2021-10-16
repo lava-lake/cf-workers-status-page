@@ -14,23 +14,15 @@ settings:
   dayInHistogramOperational: 'All good'
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
-monitors:
-  - id: cfstatus
-    name: cfstatus.nonoidea.com this page
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://cfstatus.nonoidea.com/'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-    
-  - id: gd-nonoidea-com # unique identifier
+monitors:    
+  - id: gdrive-omgd # unique identifier
     name: google-drive omgd
     description: 'google-drive omgd 团队盘' # default=empty
     url: 'https://gd.nonoidea.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    linkable: true # allows the title to be a link, default=true
 
   - id: www-linear-vc
     name: linear
@@ -55,3 +47,22 @@ monitors:
     url: 'https://cloudreve-lava-lake.cloud.okteto.net'
     method: GET
     expectStatus: 200
+    
+  - id: cfdownloader.nonoidea.com
+    name: cfdownloader Serverless通过CloudFlare网络加速加载特定文件
+    url: 'https://cfdownloader.nonoidea.com'
+    method: GET
+    expectStatus: 200
+        
+  - id: cfblog.10244201.xyz
+    name: cfblog Serverless blog on CloudFlare博客
+    url: 'https://cfblog.10244201.xyz/'
+    method: GET
+    expectStatus: 200
+        
+  - id: cpic.10244201.xyz
+    name: cpic v3 on buyvm lax 
+    url: 'https://cpic.10244201.xyz/'
+    method: GET
+    expectStatus: 200
+    
