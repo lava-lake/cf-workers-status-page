@@ -70,4 +70,10 @@ monitors:
     name: odpub.nonoidea => heroku => od-xyze3m3
     url: 'https://odpub.nonoidea.com/'
     method: GET
+    expectStatus: 200     
+  
+  - id: lk.ck.mk
+    name: lk.ck.mk shorten links by CloudFlare serverless
+    url: 'https://lk.ck.mk/'
+    method: GET
     expectStatus: 200
