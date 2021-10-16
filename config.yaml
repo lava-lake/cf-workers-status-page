@@ -15,13 +15,13 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: gd.nonoidea.com # unique identifier
+    name: google-drive omgd
+    description: 'google-drive omgd 团队盘' # default=empty
+    url: 'https://gd.nonoidea.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
@@ -39,7 +39,7 @@ monitors:
     expectStatus: 200
 
   - id: www-linear-vc
-    name: The company website
+    name: linear
     url: 'https://www.linear.vc/'
     method: GET
     expectStatus: 200
