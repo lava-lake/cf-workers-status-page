@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: www-linear-vc
+    name: The company website
+    url: 'https://www.linear.vc/'
+    method: GET
+    expectStatus: 200
