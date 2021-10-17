@@ -83,3 +83,9 @@ monitors:
     url: 'https://cfp.10244201.xyz/'
     method: GET
     expectStatus: 200
+
+ - id: nezha.nonoidea.com
+    name: nezha all machines
+    url: 'https://nezha.nonoidea.com/'
+    method: GET
+    expectStatus: 200
