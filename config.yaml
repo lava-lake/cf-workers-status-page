@@ -100,10 +100,10 @@ monitors:
     name: v2 h1000v2us.herokuapp
     url: 'https://h1000v2us.herokuapp.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 404 # 本来就不存在
     
   - id: h1000v2eu.herokuapp.com
     name: v2 h1000v2us.herokuapp
     url: 'https://h1000v2eu.herokuapp.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
