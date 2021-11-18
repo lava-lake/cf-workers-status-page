@@ -89,3 +89,21 @@ monitors:
     url: 'https://nezha.nonoidea.com/'
     method: GET
     expectStatus: 200
+
+ - id: typecho211005.herokuapp.com
+    name: typecho@herokuapp
+    url: 'https://typecho211005.herokuapp.com/'
+    method: GET
+    expectStatus: 200
+
+ - id: h1000v2us.herokuapp.com
+    name: v2 h1000v2us.herokuapp
+    url: 'https://h1000v2us.herokuapp.com/'
+    method: GET
+    expectStatus: 200
+    
+ - id: h1000v2eu.herokuapp.com
+    name: v2 h1000v2us.herokuapp
+    url: 'https://h1000v2eu.herokuapp.com/'
+    method: GET
+    expectStatus: 200
