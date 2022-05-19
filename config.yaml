@@ -41,7 +41,13 @@ monitors:
     url: 'https://cpic.10244201.xyz/'
     method: GET
     expectStatus: 200
-            
+        
+  - id: easyimage.nine.im
+    name: 自建图床 永久 easyimage
+    url: 'https://easyimage.nine.im/'
+    method: GET
+    expectStatus: 200
+    
   - id: odpub.nonoidea.com
     name: odpub.nonoidea => heroku => od-xyze3m3
     url: 'https://odpub.nonoidea.com/'
