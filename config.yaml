@@ -24,33 +24,9 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-  - id: www-linear-vc
-    name: linear
-    url: 'https://www.linear.vc/'
-    method: GET
-    expectStatus: 200
-
-  - id: sk.ck.mk
-    name: sk.ck.mk
-    url: 'https://sk.ck.mk'
-    method: GET
-    expectStatus: 200
-
-  - id: bit-lava-lake.cloud.okteto.net
-    name: bit-lava-lake.cloud.okteto.net
-    url: 'https://bit-lava-lake.cloud.okteto.net'
-    method: GET
-    expectStatus: 200
- 
-  - id: cloudreve-lava-lake.cloud.okteto.net
-    name: cloudreve-lava-lake.cloud.okteto.net
-    url: 'https://cloudreve-lava-lake.cloud.okteto.net'
-    method: GET
-    expectStatus: 200
-    
-  - id: cfdownloader.nonoidea.com
-    name: cfdownloader Serverless通过CloudFlare网络加速加载特定文件
-    url: 'https://cfdownloader.nonoidea.com'
+  - id: ok.ck.mk
+    name: ok.ck.mk
+    url: 'https://ok.ck.mk'
     method: GET
     expectStatus: 200
         
@@ -60,8 +36,8 @@ monitors:
     method: GET
     expectStatus: 200
         
-  - id: cpic.10244201.xyz
-    name: cpic v3 on buyvm lax 
+  - id: cp4.nine.im
+    name: 自建图床 永久 cpic v4 on buyvm lux 7d
     url: 'https://cpic.10244201.xyz/'
     method: GET
     expectStatus: 200
@@ -72,9 +48,22 @@ monitors:
     method: GET
     expectStatus: 200     
   
+  
+  - id: file.10244201.xyz
+    name: 自建#本地文件列表程序
+    url: 'https://file.10244201.xyz/'
+    method: GET
+    expectStatus: 200
+    
   - id: lk.ck.mk
     name: lk.ck.mk shorten links by CloudFlare serverless
     url: 'https://lk.ck.mk/'
+    method: GET
+    expectStatus: 200
+    
+  - id: short.nine.im
+    name: 自建#shorten links
+    url: 'https://short.nine.im'
     method: GET
     expectStatus: 200
     
@@ -102,8 +91,8 @@ monitors:
     method: GET
     expectStatus: 404 # 本来就不存在
     
-  - id: h1000v2eu.herokuapp.com
-    name: v2 h1000v2us.herokuapp
-    url: 'https://h1000v2eu.herokuapp.com/'
-    method: GET
-    expectStatus: 404
+#  - id: h1000v2eu.herokuapp.com
+#    name: v2 h1000v2us.herokuapp
+#    url: 'https://h1000v2eu.herokuapp.com/'
+#    method: GET
+#    expectStatus: 404
