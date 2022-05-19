@@ -69,7 +69,7 @@ monitors:
     
   - id: short.nine.im
     name: 自建#shorten links
-    url: 'https://short.nine.im'
+    url: 'https://short.nine.im/admin/'
     method: GET
     expectStatus: 200
     
