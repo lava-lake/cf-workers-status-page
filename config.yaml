@@ -38,7 +38,7 @@ monitors:
         
   - id: cp4.nine.im
     name: 自建图床 永久 cpic v4 on buyvm lux 7d
-    url: 'https://cpic.10244201.xyz/'
+    url: 'https://cp4.nine.im/'
     method: GET
     expectStatus: 200
         
