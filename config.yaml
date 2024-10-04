@@ -23,59 +23,16 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
-
-  - id: ok.ck.mk
-    name: ok.ck.mk
-    url: 'https://ok.ck.mk'
-    method: GET
-    expectStatus: 200
-        
+       
   - id: cfblog.10244201.xyz
     name: cfblog Serverless blog on CloudFlare博客
     url: 'https://cfblog.10244201.xyz/'
     method: GET
     expectStatus: 200
-        
-  - id: cp4.nine.im
-    name: 自建图床 永久 cpic v4 on buyvm lux 7d
-    url: 'https://cp4.nine.im/'
-    method: GET
-    expectStatus: 200
-        
+       
   - id: easyimage.nine.im
     name: 自建图床 永久 easyimage
     url: 'https://easyimage.nine.im/'
-    method: GET
-    expectStatus: 200
-    
-  - id: odpub.nonoidea.com
-    name: odpub.nonoidea => heroku => od-xyze3m3
-    url: 'https://odpub.nonoidea.com/'
-    method: GET
-    expectStatus: 200     
-  
-  
-  - id: file.10244201.xyz
-    name: 自建#本地文件列表程序
-    url: 'https://file.10244201.xyz/'
-    method: GET
-    expectStatus: 200
-    
-  - id: lk.ck.mk
-    name: lk.ck.mk shorten links by CloudFlare serverless
-    url: 'https://lk.ck.mk/'
-    method: GET
-    expectStatus: 200
-    
-  - id: short.nine.im
-    name: 自建#shorten links
-    url: 'https://short.nine.im/admin/'
-    method: GET
-    expectStatus: 200
-    
-  - id: cfp.10244201.xyz
-    name: CloudFlare Partner cfp.10244201
-    url: 'https://cfp.10244201.xyz/'
     method: GET
     expectStatus: 200
     
@@ -84,18 +41,6 @@ monitors:
     url: 'https://nezha.nonoidea.com/'
     method: GET
     expectStatus: 200
-
-  - id: typecho211005.herokuapp.com
-    name: typecho@herokuapp
-    url: 'https://typecho211005.herokuapp.com/'
-    method: GET
-    expectStatus: 200
-
-  - id: h1000v2us.herokuapp.com
-    name: v2 h1000v2us.herokuapp
-    url: 'https://h1000v2us.herokuapp.com/'
-    method: GET
-    expectStatus: 404 # 本来就不存在
     
 #  - id: h1000v2eu.herokuapp.com
 #    name: v2 h1000v2us.herokuapp
